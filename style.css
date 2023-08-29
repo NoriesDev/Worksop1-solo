@@ -1,0 +1,335 @@
+
+/*body{
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center; 
+}
+
+.nav-right {
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between; 
+}
+
+li {
+    margin: 0 2.5em;
+}
+
+header {
+    margin: 2em;
+    padding: 2em;
+    border: 2em;
+}
+
+#duck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text p {
+
+}
+
+
+.Duck {
+    max-height: 400px;
+}
+
+#emergency {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.grid-item {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 1em;
+    border: 1em;
+    margin: 1em 3em;
+}
+
+footer {
+    display: inline-block;
+}
+
+.github {
+    width: 40px;
+    height: 40px;
+    border: 40px;
+    margin: 40px;
+}
+
+#form {
+    width: 30%;
+    margin-left: 16em;
+    padding: 3em;
+}
+
+input {
+height: 35px;
+border: 0.2px solid black;
+margin-bottom: 0.5em;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    margin-left: 1.5em;
+    padding: 1em;
+}
+
+p {
+    margin: 2em;
+    padding:2em;
+} */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+    padding: 1em 5em;
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 2em;
+    background-color: #7C9D96;
+
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 0.2em 1em;
+    background-color: #A1CCD1;
+    color: #E9B384;
+    font-size: 2em;
+    }
+
+nav{
+    background-color: #7C9D96;
+    overflow: hidden;
+    }
+
+header {
+    overflow: hidden;
+    background-color:#F4F2DE ;
+}
+main {
+    overflow: hidden;
+    background-color: #F4F2DE;
+}
+footer{
+    overflow: hidden;
+    background-color:#F4F2DE ;
+}
+a, button {
+
+    color: #F4F2DE;
+    text-decoration: none;
+    border: none;
+}
+
+.nav-right, li, a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0 1em;
+    text-decoration: none;
+    font-size: 1em;
+}
+.nav-left {
+    overflow: hidden;
+    float: left;
+    color: #f2f2f2;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1em;
+}
+
+a:hover {
+    background-color: #A1CCD1;
+    color: #E9B384;
+}
+
+button:hover {
+    background-color: #A1CCD1;
+    color: #E9B384;
+    }
+
+#home p {
+    padding: 2em 8em;
+    color: #7C9D96;
+}
+
+p {
+    text-shadow: 1px 1px #E9B384;
+
+}
+
+
+#duck {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-content: center;
+
+}
+
+.text {
+    float: left;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-width: 50vw;
+    height: auto;
+
+}
+.duck {
+    max-width: 50vw;
+    height: auto;
+}
+
+.headline-duck {
+height: 60px;
+
+}
+.duck-btn {
+    width: 100px;
+    height: 40px;
+}
+.duck-text {
+    color: #7C9D96;;
+
+}
+.Duck {
+    float: right;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#links {
+    height: 40vh;
+}
+#links a {
+    color: #7C9D96;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-item {
+    padding: 1em 0;
+}
+
+footer {
+    display: block;
+}
+
+#form {
+    width: 30;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    margin: 0 10em;
+}
+
+input {
+height: 2.5em;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+
+}
+label {
+    color: #7C9D96;
+}
+.git {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #7C9D96;
+}
+.github {
+    width: 150px;
+    padding: 2em;
+    margin-bottom: 3em;
+}
+
+@media only screen and (max-width= 800px) {
+    h1, h2{
+        font-size: 1em;
+    }
+}
